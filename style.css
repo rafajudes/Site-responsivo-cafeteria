@@ -1,13 +1,17 @@
 /* estilo geral */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body{
     background-color: rgb(73, 42, 1);
-    height: 100vh;
+    height: 100%;
 }
 
 .interface{
@@ -95,6 +99,9 @@ header nav.menu-desktop ul li{
 .menu-mobile.menu-abrir{
     width: 70%;
 }
+
+
+
 
 .menu-mobile .btn-fechar{
     padding: 20px 4%;
@@ -368,14 +375,18 @@ section.sobre .flex{
 
     /* responsivo */
 
-    @media screen and (max-width: 1020px){
+    @media screen and (max-width: 760px){
         /* clasass geraiiss */
         .flex{
             flex-direction: column;
         }
-
+    
 
         /* cabeçalho */
+
+          body {
+        overflow-x: hidden;
+    }
         
         .menu-desktop, .btn-contato{
             display: none;
