@@ -470,7 +470,7 @@ section.sobre .flex{
     /* formulalarioooo */
 
     section.formulario{
-        padding: 60 8%;
+        padding: 60px 8%;
         
     }
 
@@ -480,16 +480,11 @@ section.sobre .flex{
     }
 
 
+}
 
-    
-
-
-
-
-
-
-
-    }
+section {
+    max-width: 100%;
+}
 
 
 
