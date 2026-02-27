@@ -417,6 +417,10 @@ section.topo-do-site .flex{
 
 }
 
+.topo-do-site p{
+    font-size: 10px;
+}
+
 /* especialidades */
 
 section.especialidades{
@@ -479,11 +483,24 @@ section.sobre .flex{
         text-align: center;
     }
 
+     .btn-abrir-menu {
+        display: block;
+    }
+
 
 }
 
 section {
     max-width: 100%;
+}
+
+body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.btn-abrir-menu {
+    display: none;
 }
 
 
