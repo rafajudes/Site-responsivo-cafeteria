@@ -379,7 +379,7 @@ section.sobre .flex{
 
     /* responsivo */
 
-    @media screen and (max-width: 760px){
+    @media screen and (max-width: 1020px){
         /* clasass geraiiss */
         .flex{
             flex-direction: column;
@@ -487,16 +487,7 @@ section.sobre .flex{
         text-align: center;
     }
 
-     @media screen and (max-width: 768px) {
-
-    .btn-abrir-menu {
-        display: block;
-    }
-
-}
-
-}
-
+    
 section {
     max-width: 100%;
 }
@@ -505,6 +496,11 @@ body, html {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+
+}
+
+
 
 .btn-abrir-menu {
     display: none;
